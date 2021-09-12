@@ -15,6 +15,7 @@ Currently stydying in BSUIR(2020-2024).
 Motivated and organized student.Seeking to grow and evolve during the internship program.Learning 
 quickly,good listener with excellent communication and interpersonal skills. 
 Enjoy working in a team with different people and exploring new things.
+Would like to have a job as a front-end developer.
 
 ### SKILLS:
   <ul>
