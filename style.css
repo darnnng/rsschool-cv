@@ -1,0 +1,46 @@
+
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px 0;
+  
+    font-family: serif;
+  
+    background-color:#cdcdff;
+  }
+  
+  h1 {
+    font-weight:bold;
+    font-size: 70px;
+    text-align:center;
+    color:#646464;
+  }
+  
+  h2 {
+    font-weight:normal;
+    font-size: 40px;
+    text-align:center;
+    color:#646464;
+  }
+  
+  h3 {
+    font-weight:normal;
+    font-size: 20px;
+    text-align:center;
+    color:#646464;
+  }
+  
+  h4 {
+    font-weight:normal;
+    font-size: 18px; 
+    text-align:center;
+    color:#646464;
+  }
+  
+  p {
+    font-size: 16px;
+    color:#333;
+    text-align: justify;
+    
+  }
