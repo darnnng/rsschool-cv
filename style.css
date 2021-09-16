@@ -16,8 +16,6 @@ body{
     line-height:1.7;
 }
 
-
-
 .wrapper{
 	display: flex;
 	min-height: 100%;
@@ -72,6 +70,11 @@ h3 {
 
 .header {
 	background-color: #9a9acf;
+}
+
+.headerrow {
+	
+	/*justify-content: space-between;*/
 }
 
 .contacts { 
