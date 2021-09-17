@@ -57,24 +57,70 @@ A:hover {
   color: rgb(103, 36, 167); 
  } 
 
-
 h1 {
   text-align:right;
-  font-size:100px;
+  font-size:90px;
   font-weight: normal;
 } 
 
-h3 {
-	font-size:2em;
+@media (max-width:767px){
+	h1 {
+		font-size:80px;
+	}
 }
+
+@media (max-width:420px){
+	h1 {
+		font-size:60px;
+		line-height:1;
+	}
+}
+
+@media (max-width:767px){
+	.blockcontacts {
+		font-size:20px;
+	}
+}
+
+@media (max-width:1200px){
+	.blockcontacts{
+		font-size: calc(22px + (22 - 15) * ((100vw - 320px) / (1200 - 320)));
+	}
+}
+
 
 .header {
 	background-color: #9a9acf;
 }
 
-.headerrow {
+/*.headerrow {
 	
-	/*justify-content: space-between;*/
+	justify-content: space-between;
+}*/
+
+@media (max-width:1200px){
+	#myphoto{
+		zoom: 1;
+		
+	}
+}
+@media (max-width:992px){
+	#myphoto{
+		zoom: 0.9;
+		
+	}
+}
+@media (max-width:767px){
+	#myphoto{
+		zoom: 0.8;
+		
+	}
+}
+@media (max-width:420px){
+	#myphoto{
+		zoom: 0.7;
+	}
+	
 }
 
 .contacts { 
@@ -83,12 +129,7 @@ h3 {
 
 .blockcontacts {
   text-align:right;
-  margin-right:10px;
-  margin-left: 60%;
-  padding-bottom:10px;
-  width:30%;
-  font-size:25px;
-}
+font-size:25px;}
 
 ul {
   list-style-type:none;
@@ -127,6 +168,16 @@ ul {
 	color:black;
 	line-height: 25px;
 }*/
+#myphoto {
+	background-image: url(images/DSC_01691.jpg);
+	width:300px;
+	height:300px;
+	background-size:contain;
+	border-radius:50%;
+	float:left;
+	margin-bottom:40px;
+	
+}
 
 .image { 
   border: none; 
@@ -144,10 +195,6 @@ ul {
 	height: 80px;
 	align-items: center;
 }
-
-
-
-
 
 
 .page{
